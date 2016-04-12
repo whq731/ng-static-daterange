@@ -1,0 +1,20 @@
+{
+  "name": "ng-static-daterange",
+  "version": "1.0.0",
+  "main": "ng-static-daterange.js",
+  "homepage": "https://github.com/whq731/ng-static-daterange",
+  "authors": [
+    "whq731@qq.com"
+  ],
+  "description": "angular static date range directive",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "angular",
+    "static",
+    "daterange",
+    "bootstrap"
+  ],
+  "license": "MIT"
+}
