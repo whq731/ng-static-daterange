@@ -9,9 +9,13 @@
                 return factory(angular);
             });
     } else {
-        return factory(angular);
+        if(typeof module !== 'undefined' && typeof exports === 'object') {
+            module.exports = factory(angular);
+        } else {
+            return factory(angular);
+        }
     }
-}(window.angular, function (angular) {
+}(angular, function (angular) {
     var app = angular.module('ngStaticDateRange', [])
         .directive('ngStaticDateRange', [
             '$parse',

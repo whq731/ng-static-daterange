@@ -1,0 +1,25 @@
+{
+  "name": "ng-static-daterange",
+  "version": "1.0.0",
+  "description": "for user choose static date range",
+  "main": "ng-static-daterange.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whq731/ng-static-daterange.git"
+  },
+  "keywords": [
+    "angular",
+    "static",
+    "daterange",
+    "bootstrap"
+  ],
+  "author": "weihanqing@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whq731/ng-static-daterange/issues"
+  },
+  "homepage": "https://github.com/whq731/ng-static-daterange#readme"
+}
