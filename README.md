@@ -31,17 +31,18 @@ var myAppModule = angular.module('MyApp', ['ngStaticDateRange'])
 <p ng-static-date-range on-range-change="dateRangeChanged($dateRange)" range-model="dateRange" format="yyyy/MM/dd" class="form-group"></p>
 ```
 
-#### Attributes
-##### on-range-change
+
+### Attributes
+#### on-range-change
 like ng-change,when date range are changeed 
 
 
-##### range-model
+#### range-model
 binding model,will init to {startDate: xxx, endDate: xxx},both startDate and endDate are Date type.
 
-##### range-count
+#### range-count
 how many days the static range are.
 
-##### format
+#### format
 format of date range to display .
 
